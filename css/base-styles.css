@@ -44,6 +44,11 @@ img {
   height: auto;
 }
 
+svg {
+  width: 3rem;
+  height: auto;
+}
+
 p,
 a {
   font-family: "Lato";
@@ -210,7 +215,20 @@ nav {
 main {
   width: 100vw;
   background-color: #f2f2f2;
-  padding: 0 17rem;
+}
+
+section {
+  width: 100vw;
+  height: 38.5rem;
+  padding: 10rem;
+}
+
+.h2-orange {
+  color: #eb674f;
+}
+
+.h2-blue {
+  color: #11ad91;
 }
 
 /* FOOTER */
@@ -222,11 +240,13 @@ footer {
 }
 
 .footer-padding {
-  padding: 0 20rem;
+  flex: 1;
+  padding: 10.4rem 13.5rem 6.5rem;
 }
 
-.footer-custom1 {
-  padding: 8rem;
+.footer-custom-1 {
+  width: 100vw;
+  padding: 0 25rem;
 }
 
 .footer-orange-line {
@@ -236,16 +256,20 @@ footer {
   margin: 0 2rem;
 }
 
-h6 {
+.footer-h6 {
   font-size: 1.4rem;
+  font-weight: 500;
+  letter-spacing: 0.4rem;
   color: #d9d9d9;
-  letter-spacing: 0.25rem;
 }
 
 .footer-h4 {
   font-size: 2rem;
+  font-weight: 600;
   text-align: left;
+  letter-spacing: 0.45rem;
   color: #d9d9d9;
+  padding-bottom: 1rem;
 }
 
 .footer-p-container {
@@ -269,11 +293,11 @@ h6 {
 
 .newsletter-button {
   width: 9.7rem;
-  height: 2.8rem;
+  height: 3.3rem;
   border-radius: 1rem;
   background-color: #eb674f;
   font-family: "Lato";
-  font-size: 1.6rem;
+  font-size: 1.3rem;
   font-weight: bold;
   letter-spacing: 0.3rem;
   color: #d9d9d9;
@@ -284,8 +308,18 @@ h6 {
 }
 
 .follow-us-text {
-  width: 10rem;
+  width: 13rem;
   height: auto;
+}
+
+.social-media-con {
+  width: 14rem;
+  height: auto;
+  justify-content: space-between;
+  margin-top: -0.5rem;
+}
+.youtube-icon {
+  margin-right: 0.1rem;
 }
 
 /* MOBILE */
