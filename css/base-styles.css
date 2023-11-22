@@ -56,11 +56,15 @@ img {
 }
 
 .img-fit-1 {
-  object-position: 5px 10%;
+  object-position: 50% 10%;
 }
 
 .img-fit-2 {
-  object-position: 5px 3%;
+  object-position: 50% 3%;
+}
+
+.img-fit-3 {
+  object-position: 50% 80%;
 }
 
 svg {
@@ -140,6 +144,12 @@ p {
   width: 55rem;
 }
 
+.con-p-2 {
+  padding-top: 3rem;
+  width: 80rem;
+  text-align: center;
+}
+
 .p-align-r {
   text-align: right;
 }
@@ -153,7 +163,6 @@ p {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  text-align: center;
 }
 
 .center-row {
@@ -161,7 +170,6 @@ p {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  text-align: center;
 }
 
 /* HEADER */
@@ -322,6 +330,23 @@ section {
 .main-padding-right {
   text-align: right;
   padding-right: 7rem;
+}
+
+.main-padding-right-2 {
+  text-align: left;
+  padding-right: 20rem;
+}
+
+.main-padding-bottom {
+  padding-bottom: 5rem;
+}
+
+.custom-p-width {
+  width: 40rem;
+}
+
+.custom-position {
+  margin-left: 10%;
 }
 
 /* FOOTER */
