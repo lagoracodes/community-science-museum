@@ -4,6 +4,11 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Miniver&display=swap");
 
+:root {
+  --img-light-border: #d7dbdf;
+  --img-dark-border: #ababab;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -42,6 +47,20 @@ svg {
 img {
   width: 20rem;
   height: auto;
+}
+
+.img-main {
+  width: 45.5rem;
+  height: 32.7rem;
+  object-fit: cover;
+}
+
+.img-fit-1 {
+  object-position: 5px 10%;
+}
+
+.img-fit-2 {
+  object-position: 5px 3%;
 }
 
 svg {
@@ -85,19 +104,25 @@ h6 {
 }
 
 h1 {
-  font-size: 4.8rem;
+  font-size: 4rem;
   font-style: italic;
   color: #323534;
 }
 
 h2 {
-  font-size: 4rem;
+  font-size: 3.3rem;
   font-style: italic;
 }
 
 h3 {
   font-size: 2.4rem;
   font-style: italic;
+}
+
+p {
+  font-size: 1.4rem;
+  text-align: justify;
+  line-height: 1.8rem;
 }
 
 .con-row {
@@ -108,6 +133,19 @@ h3 {
 .con-col {
   display: flex;
   flex-direction: column;
+}
+
+.con-p {
+  padding-top: 1.2rem;
+  width: 55rem;
+}
+
+.p-align-r {
+  text-align: right;
+}
+
+.p-align-l {
+  text-align: left;
 }
 
 .center-col {
@@ -144,7 +182,7 @@ h3 {
 }
 
 .h1-header {
-  font-size: 4rem;
+  font-size: 3.8rem;
   letter-spacing: 0.2rem;
   padding-bottom: 1.2rem;
 }
@@ -223,12 +261,67 @@ section {
   padding: 10rem;
 }
 
+.bg-white {
+  width: 100vw;
+  height: 58.6rem;
+  background-color: #f2f2f2;
+}
+
+.bg-grey {
+  width: 100vw;
+  height: 58.6rem;
+  background-color: #e1e6eb;
+}
+
+.bg-olive {
+  width: 100vw;
+  height: 45rem;
+  background-color: #c0d1cc;
+}
+
+.bg-white-title {
+  width: 100vw;
+  height: 14.5rem;
+  background-color: #f2f2f2;
+  padding: 0;
+}
+
+.bg-white-title-2 {
+  width: 100vw;
+  height: 37rem;
+  background-color: #f2f2f2;
+  padding: 0;
+}
+
 .h2-orange {
   color: #eb674f;
 }
 
 .h2-blue {
   color: #11ad91;
+}
+
+.img-light-border {
+  border: 12px solid var(--img-light-border);
+}
+
+.img-dark-border {
+  border: 12px solid var(--img-dark-border);
+}
+
+.title-padding-left {
+  text-align: left;
+  padding-right: 7rem;
+}
+
+.main-padding-left {
+  text-align: left;
+  padding-left: 7rem;
+}
+
+.main-padding-right {
+  text-align: right;
+  padding-right: 7rem;
 }
 
 /* FOOTER */
