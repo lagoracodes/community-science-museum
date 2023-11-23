@@ -6,7 +6,11 @@
 
 :root {
   --img-light-border: #d7dbdf;
+  --img-light-border-2: #e1e6eb;
   --img-dark-border: #ababab;
+  --white: #f2f2f2;
+  --black: #232625;
+  --dark-gray: #323534;
 }
 
 * {
@@ -52,6 +56,18 @@ img {
 .img-main {
   width: 45.5rem;
   height: 32.7rem;
+  object-fit: cover;
+}
+
+.img-main-2 {
+  width: 32.5rem;
+  height: 19.7rem;
+  object-fit: cover;
+}
+
+.img-main-3 {
+  width: 25rem;
+  height: 20rem;
   object-fit: cover;
 }
 
@@ -109,24 +125,40 @@ h6 {
 
 h1 {
   font-size: 4rem;
+  letter-spacing: 0.2rem;
   font-style: italic;
-  color: #323534;
+  font-weight: 800;
+  color: var(--dark-gray);
 }
 
 h2 {
   font-size: 3.3rem;
   font-style: italic;
+  color: var(--dark-gray);
+}
+
+.h2-black {
+  color: var(--black);
 }
 
 h3 {
   font-size: 2.4rem;
   font-style: italic;
+  color: var(--dark-gray);
 }
 
 p {
   font-size: 1.4rem;
   text-align: justify;
   line-height: 1.8rem;
+  letter-spacing: 0.025rem;
+  color: var(--dark-gray);
+}
+
+.p-2 {
+  font-size: 1.6rem;
+  line-height: 2.2rem;
+  text-align: left;
 }
 
 .con-row {
@@ -147,6 +179,16 @@ p {
 .con-p-2 {
   padding-top: 3rem;
   width: 80rem;
+  text-align: center;
+}
+
+.con-p-3 {
+  width: 23rem;
+  text-align: center;
+}
+
+.con-p-4 {
+  width: 40rem;
   text-align: center;
 }
 
@@ -190,8 +232,7 @@ p {
 }
 
 .h1-header {
-  font-size: 3.8rem;
-  letter-spacing: 0.2rem;
+  font-weight: 700;
   padding-bottom: 1.2rem;
 }
 
@@ -313,6 +354,10 @@ section {
   border: 12px solid var(--img-light-border);
 }
 
+.img-light-border-2 {
+  border: 8px solid var(--img-light-border-2);
+}
+
 .img-dark-border {
   border: 12px solid var(--img-dark-border);
 }
@@ -346,7 +391,48 @@ section {
 }
 
 .custom-position {
-  margin-left: 10%;
+  margin-left: 11%;
+}
+
+.custom-container {
+  width: 80vw;
+  height: 58.6rem;
+  justify-content: space-between;
+}
+
+.custom-container-2 {
+  width: 75vw;
+  height: 58.6rem;
+  justify-content: space-between;
+}
+
+.card-1 {
+  width: 64.5rem;
+  height: 33.5rem;
+  border-radius: 5px;
+  background-color: var(--white);
+  box-shadow: 1px 1px 125px rgba(0, 0, 0, 0.01);
+}
+
+.card-2 {
+  width: 64.5rem;
+  height: 33.5rem;
+  border-radius: 5px;
+  background-color: var(--white);
+  box-shadow: 1px 1px 125px rgba(0, 0, 0, 0.01);
+}
+
+.main-orange-line {
+  width: 0.4rem;
+  height: 17.3rem;
+  background-color: #eb674f;
+  margin: 0 2rem;
+}
+
+.text-underscore {
+  text-decoration: underline var(--img-dark-border);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 5px;
 }
 
 /* FOOTER */
