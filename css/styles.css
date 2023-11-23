@@ -124,7 +124,7 @@ h6 {
 }
 
 h1 {
-  font-size: 4rem;
+  font-size: 4.2rem;
   letter-spacing: 0.2rem;
   font-style: italic;
   font-weight: 800;
@@ -132,8 +132,10 @@ h1 {
 }
 
 h2 {
-  font-size: 3.3rem;
+  font-size: 3.5rem;
   font-style: italic;
+  font-weight: 800;
+  letter-spacing: 0.1rem;
   color: var(--dark-gray);
 }
 
@@ -150,7 +152,7 @@ h3 {
 p {
   font-size: 1.4rem;
   text-align: justify;
-  line-height: 1.8rem;
+  line-height: 2.1rem;
   letter-spacing: 0.025rem;
   color: var(--dark-gray);
 }
@@ -190,6 +192,10 @@ p {
 .con-p-4 {
   width: 40rem;
   text-align: center;
+}
+
+.con-p-5 {
+  width: 40rem;
 }
 
 .p-align-r {
@@ -342,6 +348,13 @@ section {
   padding: 0;
 }
 
+.bg-white-title-3 {
+  width: 100vw;
+  height: 25rem;
+  background-color: #f2f2f2;
+  padding: 0;
+}
+
 .h2-orange {
   color: #eb674f;
 }
@@ -386,6 +399,14 @@ section {
   padding-bottom: 5rem;
 }
 
+.main-padding-top {
+  padding-top: 5.3rem;
+}
+
+.img-margin {
+  margin: 2rem 0;
+}
+
 .custom-p-width {
   width: 40rem;
 }
@@ -415,8 +436,21 @@ section {
 }
 
 .card-2 {
-  width: 64.5rem;
-  height: 33.5rem;
+  width: 45.5rem;
+  height: 48.1rem;
+  padding-bottom: 5rem;
+  border-radius: 5px;
+  background-color: var(--white);
+  box-shadow: 1px 1px 125px rgba(0, 0, 0, 0.01);
+}
+
+.card-3 {
+  width: 45.5rem;
+  height: 32rem;
+  justify-content: flex-start;
+  padding-top: 4.5rem;
+  margin-top: 2rem;
+  margin-bottom: 8rem;
   border-radius: 5px;
   background-color: var(--white);
   box-shadow: 1px 1px 125px rgba(0, 0, 0, 0.01);
