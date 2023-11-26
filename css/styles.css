@@ -319,6 +319,57 @@ nav {
   list-style-type: none;
 }
 
+.space-between {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+/* HAMBURGER MENU  */
+
+.mobile-nav {
+  display: none;
+}
+
+.hamburger {
+  position: relative;
+  display: block;
+  width: 35px;
+  cursor: pointer;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: none;
+  outline: none;
+  border: none;
+}
+
+.hamburger .bar,
+.hamburger:after,
+.hamburger:before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 5px;
+  background-color: var(--dark-gray);
+  margin: 6px 0px;
+  border-radius: 5px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.hamburger.is-active:before {
+  transform: rotate(-45deg) translate(-8px, 6px);
+}
+
+.hamburger.is-active:after {
+  transform: rotate(45deg) translate(-9px, -8px);
+}
+
+.hamburger.is-active .bar {
+  opacity: 0;
+}
+
 /* MAIN */
 
 main {
@@ -683,11 +734,7 @@ footer {
 
   /* NAVIGATION */
 
-  /* .header {
-    display: none;
-  } */
-
-  nav ul li {
+  #navigation {
     display: none;
   }
 
@@ -739,7 +786,6 @@ footer {
   }
 
   /* VISIT US  */
-
 
   .card-1 {
     width: 100vw;
@@ -808,7 +854,6 @@ footer {
   .border {
     border: 3px dotted magenta;
   }
-
 
   #accessibility-con {
     height: 65rem;
