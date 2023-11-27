@@ -25,8 +25,24 @@
           <h3 class="h3-header">"Explore Together!"</h3>
         </div>
       </div>
-      <nav class="center-row">
+      <nav class="container center nav-main">
         <ul class="navigation">
+          <li><a href="index.html">explore</a></li>
+          <li><a href="visit.html">visit</a></li>
+          <li><a href="exhibition-spaces.html">exhibition spaces</a></li>
+          <li>
+            <a class="active" href="events-exhibitions.html"
+              >events and exhibitions</a
+            >
+          </li>
+          <li><a href="get-involved.html">get involved</a></li>
+        </ul>
+      </nav>
+      <button class="hamburger">
+        <div class="bar"></div>
+      </button>
+      <nav class="mobile-nav container center nav-main">
+        <ul id="ul-mob-nav" class="space-between">
           <li><a href="index.html">explore</a></li>
           <li><a href="visit.html">visit</a></li>
           <li><a href="exhibition-spaces.html">exhibition spaces</a></li>
@@ -41,23 +57,26 @@
     </header>
     <main>
       <div class="con-col">
-        <section class="custom-title center-adjust section-height container center bg-white-title-2">
+        <section
+          class="custom-title center-adjust section-height container center bg-white-title-2"
+        >
           <div class="content container center">
             <div class="title-paragraph container">
               <h1 class="p-1">Special Events and Exhibitions</h1>
               <p class="con-p-2">
                 As we embark on this exciting journey through the world of
                 science, the Community Science Museum is thrilled to bring you a
-                series of special events and exhibitions that promise to inspire,
-                educate, and captivate all ages. From thought-provoking lectures
-                by visiting experts in aeronautics to a thrilling 'Night in the
-                Museum' experience that brings science to life after dark, and an
-                exclusive exhibition on loan from the NEMO Science Museum in
-                Amsterdam, we are dedicated to making science accessible and
-                engaging for our community. Join us in exploring the wonders of
-                the universe, understanding the power of the elements, and
-                experiencing the thrill of discovery. It's a time of discovery,
-                adventure, and learning, and we're excited to share it with you.
+                series of special events and exhibitions that promise to
+                inspire, educate, and captivate all ages. From thought-provoking
+                lectures by visiting experts in aeronautics to a thrilling
+                'Night in the Museum' experience that brings science to life
+                after dark, and an exclusive exhibition on loan from the NEMO
+                Science Museum in Amsterdam, we are dedicated to making science
+                accessible and engaging for our community. Join us in exploring
+                the wonders of the universe, understanding the power of the
+                elements, and experiencing the thrill of discovery. It's a time
+                of discovery, adventure, and learning, and we're excited to
+                share it with you.
               </p>
             </div>
           </div>
@@ -121,8 +140,13 @@
     </main>
     <footer>
       <div class="center-col">
-        <div class="center-row footer-custom-1">
-          <div class="center-row footer-padding">
+        <div class="container center">
+          <img
+            class="logo footer-logo"
+            src="images/logo.png"
+            alt="Community Science Museum logo"
+          />
+          <div class="center-row footer-padding display-none-mobile">
             <div class="footer-orange-line"></div>
             <div class="footer-p-container">
               <p class="footer-p">
@@ -134,7 +158,7 @@
               </p>
             </div>
           </div>
-          <div class="center-row footer-padding">
+          <div class="container footer-padding display-none-mobile">
             <div class="footer-orange-line"></div>
             <div class="con-col">
               <h4 class="footer-h4">Join our newsletter</h4>
@@ -144,11 +168,11 @@
               </div>
             </div>
           </div>
-          <div class="center-row footer-padding">
+          <div class="container footer-padding">
             <div class="footer-orange-line"></div>
-            <div class="con-col follow-us-con">
-              <div class="follow-us-text">
-                <h4 class="footer-h4">Follow us</h4>
+            <div class="con-col follow-us-con mobile-center">
+              <div class="follow-us-text mobile-center">
+                <h4 class="footer-h4 mobile-center">Follow us</h4>
               </div>
               <div class="con-row social-media-con">
                 <svg
@@ -262,4 +286,5 @@
       </div>
     </footer>
   </body>
+  <script src="js/main.js"></script>
 </html>

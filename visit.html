@@ -25,8 +25,20 @@
           <h3 class="h3-header">"Explore Together!"</h3>
         </div>
       </div>
-      <nav class="center-row">
+      <nav class="container center nav-main">
         <ul class="navigation">
+          <li><a href="index.html">explore</a></li>
+          <li><a class="active" href="visit.html">visit</a></li>
+          <li><a href="exhibition-spaces.html">exhibition spaces</a></li>
+          <li><a href="events-exhibitions.html">events and exhibitions</a></li>
+          <li><a href="get-involved.html">get involved</a></li>
+        </ul>
+      </nav>
+      <button class="hamburger">
+        <div class="bar"></div>
+      </button>
+      <nav class="mobile-nav container center nav-main">
+        <ul id="ul-mob-nav" class="space-between">
           <li><a href="index.html">explore</a></li>
           <li><a class="active" href="visit.html">visit</a></li>
           <li><a href="exhibition-spaces.html">exhibition spaces</a></li>
@@ -41,8 +53,8 @@
           <h1>Visit us!</h1>
         </section>
         <section id="visit-us" class="section-height center bg-grey">
-          <div class="content container ">
-            <div id="contact-us-con" class="content container center ">
+          <div class="content container">
+            <div id="contact-us-con" class="content container center">
               <div id="contact-us" class="center-col">
                 <h2>Contact Us</h2>
                 <div class="container center card-1">
@@ -165,8 +177,13 @@
     </main>
     <footer>
       <div class="center-col">
-        <div class="center-row footer-custom-1">
-          <div class="center-row footer-padding">
+        <div class="container center">
+          <img
+            class="logo footer-logo"
+            src="images/logo.png"
+            alt="Community Science Museum logo"
+          />
+          <div class="center-row footer-padding display-none-mobile">
             <div class="footer-orange-line"></div>
             <div class="footer-p-container">
               <p class="footer-p">
@@ -178,7 +195,7 @@
               </p>
             </div>
           </div>
-          <div class="center-row footer-padding">
+          <div class="container footer-padding display-none-mobile">
             <div class="footer-orange-line"></div>
             <div class="con-col">
               <h4 class="footer-h4">Join our newsletter</h4>
@@ -188,11 +205,11 @@
               </div>
             </div>
           </div>
-          <div class="center-row footer-padding">
+          <div class="container footer-padding">
             <div class="footer-orange-line"></div>
-            <div class="con-col follow-us-con">
-              <div class="follow-us-text">
-                <h4 class="footer-h4">Follow us</h4>
+            <div class="con-col follow-us-con mobile-center">
+              <div class="follow-us-text mobile-center">
+                <h4 class="footer-h4 mobile-center">Follow us</h4>
               </div>
               <div class="con-row social-media-con">
                 <svg
@@ -306,4 +323,5 @@
       </div>
     </footer>
   </body>
+  <script src="js/main.js"></script>
 </html>
