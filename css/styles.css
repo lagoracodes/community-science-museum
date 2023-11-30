@@ -525,6 +525,14 @@ section {
   display: none;
 }
 
+/* GET INVOLVED  */
+
+.bottom-white-space {
+  height: 59rem;
+  display: flex;
+  width: 100%;
+}
+
 /* FOOTER */
 
 footer {
